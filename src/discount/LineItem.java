@@ -19,7 +19,7 @@ private double discountAmount;
 private Product[] productDb = {
     new Product(new  NewYearDiscount(),"A101","Hat",19.95 ),
     new Product(new NoDiscount(),"B101","Glove",25.95 ),
-    new Product(null,"C101","Belt",9.25 )  
+    new Product(new NoDiscount(),"C101","Belt",9.25 )  
 };
 
 
